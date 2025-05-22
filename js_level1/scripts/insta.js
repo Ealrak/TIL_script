@@ -21,7 +21,7 @@ console.log(likeImg.src)
 photo.addEventListener('dblclick',likeOn)
 function likeOn(){
     //console.log('test');
-    return likeImg.src = "./images/icons/line_on.png"
+    return likeImg.src = "./images/icons/like_on.png"
 }
 
 // 5. 좋아요 아이콘 한번 터치 시 좋아요 (o), 다시 터치 시 좋아요 해제 반복 (x - 조건문 공부 필요)
