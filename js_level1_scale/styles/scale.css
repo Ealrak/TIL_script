@@ -1,0 +1,25 @@
+body, html {padding:0 10px; background-color:#f5f5f5;}
+main {
+    max-width:420px; min-width:320px; margin:30px auto 0;
+    border:3px solid #ccc;
+    background-color:#F5F5DC;
+}
+main h1 {
+    border:3px solid red;
+    color:#708238;
+}
+main p {
+    border:3px solid black;
+    color:#9B111E;
+}
+main .info {background-color:aqua;}
+main .info li {border:3px solid yellow;}
+main .info li span {border:3px solid green;}
+main .info li input[name*=height] {background-color:blue;}
+main .info li input[name*=weight] {background-color:purple;}
+main #result_btn {
+    border:3px solid coral;
+    background-color:#9B111E;
+    color:
+}
+main #result {}
