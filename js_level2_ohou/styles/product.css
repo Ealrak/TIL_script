@@ -1,0 +1,76 @@
+main {
+    background:aqua;
+    width:995px; margin:0 auto;
+}
+main .path {margin-bottom:26px;}
+main section {
+    display:grid;
+    grid-template-columns:630px 341px;
+    justify-content:space-between;
+}
+main section .left_thumbnail {display:flex; background:yellow;}
+main section .left_thumbnail .small {}
+main section .left_thumbnail .small a {
+    width:56px; height:56px; display:block;
+    overflow:hidden; border-radius:5px; margin-bottom:10px;
+}
+main section .left_thumbnail .small a img {}
+main section .left_thumbnail .big {
+    width:calc(100% - (56px + 15px));
+    margin-left:15px;
+}
+main section .left_thumbnail .big img {width:100%;}
+main section .right_order {background:lime;}
+main section .right_order > * {margin-bottom:25px; background:yellow;}
+main section .right_order .brand {}
+main section .right_order h1 {}
+main section .right_order .review {}
+main section .right_order .review .score {}
+main section .right_order .review .score em {}
+main section .right_order .review .num {}
+main section .right_order .sale_price {}
+main section .right_order .sale_price em {}
+main section .right_order .sale_price del {}
+main section .right_order > .price {}
+main section .right_order > .price em {}
+main section .right_order .benefit_delivery {overflow:hidden;}
+main section .right_order .benefit_delivery dt {
+    width:80px; background:pink;
+    float:left;
+}
+main section .right_order .benefit_delivery dd {
+    width:calc(100% - 80px); background:aqua;
+    float:right;
+}
+main section .right_order .benefit_delivery dd em {}
+main section .right_order .product_option {
+    display:flex; flex-flow:column nowrap;
+}
+main section .right_order .product_option > * {
+    border-radius:5px;
+    outline:none; line-height:44px;
+    border:1px solid #aaa; padding-left:17px;
+}
+main section .right_order .product_option select[name=color] {}
+main section .right_order .product_option select[name=color] option {}
+main section .right_order .product_option select[name=size] {}
+main section .right_order .product_option select[name=size] option {}
+main section .right_order .total {}
+main section .right_order .total p {}
+main section .right_order .total p .price {}
+main section .right_order .total p .price em {}
+main section .right_order .btn_group {
+    display:flex; justify-content:space-between;
+}
+main section .right_order .btn_group > * {
+    width:165.5px; height:57px;
+    border-radius:5px;
+    border:1px solid #59afff;
+    font-size:1.063rem;
+}
+main section .right_order .btn_group #cart_btn {
+    background:#fff; color:#59afff;
+}
+main section .right_order .btn_group #buy_btn {
+    background:#59afff; color:#fff;
+}
