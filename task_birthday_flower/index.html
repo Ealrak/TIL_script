@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>탄생화</title>
+    <link rel="stylesheet" href="../js_level2_ohou/styles/reset.css">
+    <style>
+        main {
+            background:url(https://i.pinimg.com/736x/20/37/7a/20377a86a0bb84a03c2c7e836de74a00.jpg) no-repeat center;
+            width:100%; height:100vh;
+            text-align:center;
+        }
+        main h1 {}
+        main .birthday {
+            
+            margin:0 auto;
+            border:3px solid blue;
+            width:77%;
+            padding:30px;
+        }
+        main .birthday > * {
+            width:100%;
+            display:flex;
+            width:300px;
+            margin:0 auto;
+            border:3px solid lime;
+            flex-flow:column wrap;
+        }
+        main .birthday #year {
+            background-color: aqua;
+            
+        }
+        main .birthday #month {
+            background-color: pink;
+        
+        }
+        main .birthday #day {
+            background-color: yellow;
+        
+        }
+        main .flower {}
+        main .flower #flower_btn {
+            background-color:#fff;
+            padding:10px 30px;
+            margin:30px;
+        }
+    </style>
 </head>
 <body>
-    
+    <main>
+        <h1>당신의 생일은 몇월인가요?</h1>
+        <div class="birthday">
+            <div class="wrap">
+                <input type="number" id="year" placeholder="XXXX">년
+                <input type="number" id="month" placeholder="XX">월
+                <input type="number" id="day" placeholder="XX">일
+            </div>
+        </div>
+        <div class="flower">
+            <button type="button" id="flower_btn">탄생화와 꽃말은?</button>
+        </div>
+    </main>
 </body>
 </html>
