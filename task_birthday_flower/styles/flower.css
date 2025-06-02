@@ -1,1 +1,14 @@
-/* https://i.pinimg.com/736x/20/37/7a/20377a86a0bb84a03c2c7e836de74a00.jpg */
+main {
+    width:420px; height:100vh;
+    display:flex; 
+    flex-flow:column nowrap;
+    align-items:center;
+    justify-content:center;
+    background:url(https://i.pinimg.com/736x/20/37/7a/20377a86a0bb84a03c2c7e836de74a00.jpg) center / cover;
+}
+main > * {line-height:3;}
+main .date {}
+main .date input {width:50px; border-radius:5px; padding:4px;}
+main #result_btn {background:rgba(255,255,255,0.5); padding:10px 40px; border-radius:20px;}
+main #result_btn:hover {color:hotpink;}
+main .total {width:80%; text-align:center; line-height:1.5; margin-top:25px}
