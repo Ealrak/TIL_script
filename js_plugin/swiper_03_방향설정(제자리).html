@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>swiper-direction1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <style>
+        * {margin:0; padding:0; line-height:1.0; box-sizing:border-box;}
+        .swiper {width:1000px; height:40px; background:#ddd;}
+        .swiper .swiper-wrapper {}
+        .swiper .swiper-wrapper .swiper-slide {background:#ff0;}
+        .swiper .swiper-wrapper .swiper-slide .slide1 {}
+        .swiper .swiper-wrapper .swiper-slide .slide2 {}
+        .swiper .swiper-wrapper .swiper-slide .slide3 {}
+        .swiper .swiper-wrapper .swiper-slide .slide4 {}
+    </style>
+</head>
+<body>
+    <div class="swiper" id="news">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide1"><a href="#">[美 이란 공격] 하메네이 "응징당할 것"…미국 직접 거명은 안해</a></div>
+            <div class="swiper-slide slide2"><a href="#">무한리필 고깃집서 음식 숨기다 덜미…“채식주의자라 많이 못 먹어서” 변명</a></div>
+            <div class="swiper-slide slide3"><a href="#">호르무즈 해협 봉쇄 위기에… 국제유가 3% 급등</a></div>
+            <div class="swiper-slide slide4"><a href="#">이란, 핵 능력 완전히 사라졌나…남은 변수는?</a></div>
+        </div>
+    </div>
+    <script>
+        const newSwiper = new Swiper('#news',{
+            effect:'fade',
+            autoplay:{delay:1000},
+            loop:true,
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
